@@ -1,0 +1,38 @@
+{
+    // 语言配置
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[vue]": {},
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "emmet.includeLanguages": {
+      "wxml": "html"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    //prettier配置
+    "prettier.disableLanguages": ["vue", "Markdown"],
+    //sync setting 配置
+    "sync.gist": "",
+    //vetur配置
+    "vetur.format.options.tabSize": 4,
+    //editor 配置
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    //eslint 配置
+    "eslint.format.enable": true,
+    "eslint.validate": ["javascript", "vue", "html", "js", "ts", "tsx"],
+    "todo-tree.tree.showScanModeButton": false,
+    "todohighlight.isEnable": true
+  }
+  
