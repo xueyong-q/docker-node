@@ -9,9 +9,9 @@
 
 ### 开始配置
 
-将以下配置加入到 VS Code 的全局配置或项目配置中。  
-1，全局配置文件位于 `C:\Users\<username>\AppData\Roaming\Code\User\settings.json` (windows) 配置文件中，将以下配置加入到全局配置中。  
-2，项目配置在项目目录下新建一个 `.vscode` 文件夹并在其中新建 `settings.json` 配置文件，将以下配置写入到该文件中。  
+将以下配置加入到 VS Code 的全局配置文件中或项目的独立配置文件中。  
+1，全局的配置文件位于 `C:\Users\<username>\AppData\Roaming\Code\User\settings.json` (windows) 文件中，将下面配置写入到全局配置中。  
+2，项目中独立配置，首先在项目目录下新建一个 `.vscode` 文件夹并在其中新建 `settings.json` 配置文件，然后将下面配置写入到该文件中。  
 
 ```json
 {
