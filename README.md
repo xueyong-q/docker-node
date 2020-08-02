@@ -1,6 +1,11 @@
 ## 简介
 
-本项目结合 VSCode 的 Remote - Containers 插件搭建 Node 开发环境。
+本项目结合 VSCode 的 Remote - Containers 插件搭建 Node 开发环境。安装应用有 Node 和 yarn 默认安装版本如下。
+
+| 应用 | 版本 |
+| ---- | ---- |
+| Node | 14.x |
+| Yarn | 1.22 |
 
 ## 环境搭建
 
@@ -9,7 +14,7 @@
 
 ### 开始使用
 
-首先打开 VSCode，然后如下操作。
+首先打开 VSCode，操作如下。
 
 ![](.devcontainer/image/image-1.jpg)
 
