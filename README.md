@@ -14,7 +14,7 @@
 
 ### 开始使用
 
-首先使用 VSCode 打开本项目，操作如下。
+首先使用 VSCode 打开本项目，操作如下。  
 ![](.devcontainer/image/image-1.jpg)
 
 然后选择在容器中重新打开。  
