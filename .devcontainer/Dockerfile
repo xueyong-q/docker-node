@@ -8,7 +8,9 @@ RUN apt-get update \
     && apt-get -y install --no-install-recommends apt-utils dialog 2>&1 \
     #
     # Verify git, needed tools installed
-    && apt-get -y install git openssh-client less iproute2 procps curl lsb-release vim zsh jq \
+    && apt-get -y install sudo git openssh-client less iproute2 procps curl lsb-release vim zsh jq \
+    && echo "${USERNAME} ALL=(root) NOPASSWD:ALL" > /etc/sudoers.d/${USERNAME} \
+    && chmod 0440 /etc/sudoers.d/${USERNAME} \
     #
     # add permissions
     && chmod +x /tmp/ohmyzsh.sh \
