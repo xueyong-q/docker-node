@@ -1,7 +1,9 @@
-FROM node:14
+ARG VERSION
+FROM node:${VERSION}
 
-ENV LANG C.UTF-8
-ARG USERNAME=node
+ARG USERNAME
+ARG LANG
+ENV LANG=${LANG}
 COPY ohmyzsh.sh /tmp/
 
 RUN apt-get update \

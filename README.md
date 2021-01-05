@@ -20,8 +20,10 @@
 然后选择在容器中重新打开。  
 ![](.devcontainer/image/image-2.jpg)
 
-最后等待项目启动，项目启动后会将容器中的 8080 端口映射到主机的 8080 端口。  
->如要修改端口映射，可以修改 `.devcontainer\devcontainer.json` 配置文件中 `appPort` 配置项，配置值如：`<主机端口>:<容器内端口>`。  
+最后等待项目启动，项目启动后会将容器中的 9000 端口映射到主机的 9000 端口。  
+
+如要修改端口映射，可以修改 `.devcontainer\devcontainer.json` 配置文件中 `appPort` 配置项。  
+构建 Dockerfile 时的环境变量则在 `build.args` 中修改。  
 
 ## VSCode扩展
 
