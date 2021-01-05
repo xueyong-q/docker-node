@@ -8,8 +8,9 @@
 	"build": {
 		// 构建 Dockerfile 时的环境变量
 		"args": {
-			// 设置 node 镜像版本
+			// node 镜像版本
 			"VERSION": "14",
+			// 在容器中运行的用户
 			"USERNAME": "node",
 			"LANG": "C.UTF-8"
 		}
