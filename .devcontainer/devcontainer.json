@@ -20,7 +20,7 @@
 		"9000:9000"
 	],
 	// install ohmyzsh
-	"postCreateCommand": "/tmp/ohmyzsh.sh &",
+	"postStartCommand": "ohmyzsh.sh",
 	// 在容器中运行的用户
 	"remoteUser": "node",
 	// 安装 vscode 扩展

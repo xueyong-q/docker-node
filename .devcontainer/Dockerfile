@@ -4,7 +4,7 @@ FROM node:${VERSION}
 ARG USERNAME
 ARG LANG
 ENV LANG=${LANG}
-COPY ohmyzsh.sh /tmp/
+COPY ohmyzsh.sh /usr/bin/
 
 RUN apt-get update \
     && apt-get -y install --no-install-recommends apt-utils dialog 2>&1 \
@@ -15,7 +15,7 @@ RUN apt-get update \
     && chmod 0440 /etc/sudoers.d/${USERNAME} \
     #
     # add permissions
-    && chmod +x /tmp/ohmyzsh.sh \
+    && chmod +x /usr/bin/ohmyzsh.sh \
     #
     # 设置环境变量
     && echo "export PATH=/home/${USERNAME}/.yarn/bin:\$PATH" >> /home/${USERNAME}/.envrc \
