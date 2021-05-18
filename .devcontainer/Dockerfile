@@ -21,6 +21,7 @@ RUN apt-get update \
     && echo "export PATH=/home/${USERNAME}/.yarn/bin:\$PATH" >> /home/${USERNAME}/.envrc \
     && sudo -u ${USERNAME} touch /home/${USERNAME}/.zshrc \
     && echo ". ~/.envrc" > /home/${USERNAME}/.zshrc \
+    && echo "ohmyzsh.sh&" >> /home/${USERNAME}/.zshrc \
     #
     # Clean up
     && apt-get autoremove -y \

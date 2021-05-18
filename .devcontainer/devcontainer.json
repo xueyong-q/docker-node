@@ -17,10 +17,9 @@
 	},
 	// 映射端口 <主机端口>:<容器端口>
 	"appPort": [
-		"9000:9000"
+		"9000:9000",
+		"8093:8093"
 	],
-	// install ohmyzsh
-	"postStartCommand": "ohmyzsh.sh",
 	// 在容器中运行的用户
 	"remoteUser": "node",
 	// 安装 vscode 扩展
